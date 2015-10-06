@@ -1,9 +1,4 @@
 # donghyuc-kim.github.io
 
-hosting.bizfree.kr 에 등록된 내용을 그대로 github.io으로 이동. 
-다른 목적이 있는건 아니고 단순 홈페이지의 내용을 유지하는거라면 github.io의 hosting이 훨씬 경제적이라는 판단하에 이동. 
-
-## Task
-
-* donghyuc.com 도메인 연결. 
-* 구글앱스 연결. 
+이곳에 있던 파일은 이전에 사용하던 무료 호스팅으로 옮기고 도메인도 연결. 
+언젠가 사용하게 될테니까 대기.
