@@ -10,7 +10,7 @@
 
 <meta charset="utf-8">
 <title>donghyuc-kim/index</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width">
 <link rel="icon" href="./images/favicon.png" sizes="16x16" type="image/png">
 <style>
     html, body {
@@ -35,6 +35,10 @@
         /*color: #999;*/
     }
 
+    strong {
+        font-weight: 600;
+    }
+
     .h1 { line-height: 1em; }
     .h1 .span1 { display: block; }
 
@@ -44,32 +48,66 @@
         margin: 0; 
         padding: 0; 
         list-style-type: none; 
+        font-size: small;
     }
     .ul1 li { margin: 0; }
     .ul1 li:before { content: "+ "; }
+    .ul1 a { text-decoration: none; }
+    .ul1 a:hover { text-decoration: underline; }
+
+    .ul2 {
+        margin: 0; 
+        padding: 0; 
+        list-style-type: none; 
+        font-family: AppleSDGothicNeo-Thin;
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 1;
+    }
+    .ul2 li { margin: 0; }
+    .ul2 li:before { content: "#"; }
+
+    .a-tel {}
+    .a-tel:before { content: "📞 "; }
+    .a-mail {}
+    .a-mail:before { content: "💌 "; }
+    .a-link {}
+    .a-link:before { content: "🔗 "; }
+
+    .strong1 {
+        display: inline-block;
+        word-break: normal;
+    }
    
 </style>
 
 <div class="div-body">
     <h1 class="h1">
-        김동혁
-        <span class="span1">(웹유아이엔지니어)</span>
+        김동혁입니다
     </h1>
+
+    <ul class="ul2">
+        <li>팔십일년생</li>
+        <li>웹유아이엔지니어</li>
+        <li>맑고향기운웹</li>
+        <li>기본_진심</li>
+    </ul>
     
     <p class="p1">
-        맑고 향기로운 웹을 만들기 위해 노력하고 있습니다. 
-        있는 그대로의 것을 유지하면서 소박하지만 단순하고 명확한걸 목표로 
-        즐거움과 보람을 느끼는 평범한 개발자입니다. 
+        <strong>있는 그대로의 것</strong>을 유지하면서 
+        <strong>소박</strong>하지만 
+        <strong>단순</strong>하고 <strong>명확</strong>한걸 목표로 
+        즐거움과 보람을 느끼는 <strong class="strong1">평범한 개발자</strong>입니다. 
     </p>
 
     <hr>
     
     <ul class="ul1">
-        <li>공일공-육육오삼-일삼오공</li>
-        <li>디오엔지에이치와이유씨@지엠에이아이엘.씨오엠</li>
-        <li><a href="http://donghyuc.com">donghyuc.com</a></li>
-        <li><a href="http://soopul.com">soopul.com</a></li>
-        <li><a href="https://github.com/donghyuc-kim">github</a></li>
+        <li><a href="tel:010-6653-1350" class="a-tel">공일공-육육오삼-일삼오공</a></li>
+        <li><a href="mailto:donghyuc@gmail.com" class="a-mail">디오엔지에이치와이유씨@지엠에이아이엘.씨오엠</a></li>
+        <li><a href="http://donghyuc.com" class="a-link">donghyuc.com</a></li>
+        <li><a href="http://soopul.com" class="a-link">soopul.com</a></li>
+        <li><a href="https://github.com/donghyuc-kim" class="a-link">github</a></li>
     </ul>
     
     <!-- <p>HTML5(DOM+Script), 표준과 접근성, 겸손한 코딩, <strong>나물코드</strong></p> -->
